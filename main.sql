@@ -17,5 +17,13 @@ CREATE TABLE internPos
  appDeadLine DATE,
  weeks INTEGER,
  descript TEXT,
- isPaid BOOLEAN NOT NULL CHECK (isPaid IN (0,1))
+ isPaid INTEGER
 );
+
+INSERT INTO companies VALUES
+()
+();
+
+INSERT INTO internPos VALUES
+()
+();
