@@ -31,4 +31,6 @@ INSERT INTO companies VALUES
 INSERT INTO internPos VALUES
 ('Game Designer Intern', 'Amazon', null, 8, 'Interns are responsible for inventing and developing a unique and exciting game mechanic for our players. Work with a team of animators and programmers to bring your vision to life.', 1),
 ('Game Programmer Intern', 'Heavy Iron', null, 8, 'Inters take on any technical challenges from bug fixing to implementing new game features.', 0),
-();
+('Game Design Intern', 'Epic Games', null, 8, 'Interns are given challenging projects over the work term, and are provided with a meaningful experience with high expectations for performance.', 1),
+('Designer/Scripter Intern', 'Respawn Entertainment', null, 8, 'Looking for a highly skilled Designer/Scripter who will create exciting scripted moments and accompanying level design in the game.', 0),
+('Visual Design Intern', 'Riot Games', null, 10, 'Designers collaborate with cross disciplinary teams and act as both artistic and design problem solvers.', 1);
