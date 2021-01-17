@@ -47,4 +47,9 @@ SELECT * FROM companies;
 .print
 .print 'Internships:'
 .print
-SELECT * FROM internPos
+SELECT * FROM internPos;
+
+.print
+.print 'Order by Deadline:'
+.print
+SELECT title, comName, appDeadLine FROM internPos ORDER BY appDeadLine;
