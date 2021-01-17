@@ -40,3 +40,7 @@ INSERT INTO internPos VALUES
 ('Level Design Intern', 'Blizzard Entertainment', null, 8, 'Collaborate with the team to design and document multiplayer levels, starting from top-down maps and progressing to in-game, playable content.', 0),
 ('Modeling Internship', 'Blizzard Entertainment', null, 11, ' Candidates should have some experience working with digital modeling software to create dynamic and appealing assets.', 0),
 ('Animation Intern', 'Riot Games', null, 10, 'You will create high quality animations for a diverse and rapidly growing universe, including bipeds, quadrupeds, and creatures.', 1);
+
+SELECT * FROM companies;
+.print
+SELECT * FROM internPos
