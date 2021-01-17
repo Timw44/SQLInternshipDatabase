@@ -1,5 +1,5 @@
 .header on
-.mode column
+.mode line
 
 CREATE TABLE companies
 (
@@ -41,6 +41,10 @@ INSERT INTO internPos VALUES
 ('Modeling Internship', 'Blizzard Entertainment', null, 11, ' Candidates should have some experience working with digital modeling software to create dynamic and appealing assets.', 0),
 ('Animation Intern', 'Riot Games', null, 10, 'You will create high quality animations for a diverse and rapidly growing universe, including bipeds, quadrupeds, and creatures.', 1);
 
+.print 'Companies:'
+.print
 SELECT * FROM companies;
+.print
+.print 'Internships:'
 .print
 SELECT * FROM internPos
