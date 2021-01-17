@@ -53,3 +53,8 @@ SELECT * FROM internPos;
 .print 'Order by Deadline:'
 .print
 SELECT title, comName, appDeadLine FROM internPos ORDER BY appDeadLine;
+
+.print
+.print 'Company Search:'
+.print
+SELECT * FROM internPos WHERE comName = 'Riot Games';
