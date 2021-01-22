@@ -49,27 +49,18 @@ SELECT * FROM companies;
 .print
 SELECT * FROM internPos;
 
-hold = RAW('Enter A Search Method: ')
-
-SELECT 
-CASE hold
-
-WHEN 'Deadline' THEN
-.print
+.print '-----------------'
 .print 'Order by Deadline:'
 .print
-SELECT * FROM internPos ORDER BY appDeadLine
+SELECT * FROM internPos ORDER BY appDeadLine;
 
-WHEN 'Companies' THEN
-.print
+.print '-----------------'
 .print 'Company Search:'
 .print
-SELECT * FROM internPos WHERE comName = 'Riot Games'
+SELECT * FROM internPos WHERE comName = '';
 
-WHEN 'Location' THEN
-.print
+
+.print '-----------------'
 .print 'Location Search:'
 .print
-SELECT * FROM companies WHERE location = 'Los Angels, CA'
-END CASE
-FROM internPos
+SELECT * FROM companies WHERE location = '';
