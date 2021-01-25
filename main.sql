@@ -44,7 +44,7 @@ INSERT INTO internPos VALUES
 .print 'Companies:'
 .print
 SELECT * FROM companies;
-.print
+.print '-----------------'
 .print 'Internships:'
 .print
 SELECT * FROM internPos;
